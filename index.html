@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My_Méteo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+
+<body>
+    <section id="app">
+        <h1>
+            <span id="ville"></span>
+            <span class="tooltip">Tapez une autre ville si vous le souhaitez</span>
+        </h1>
+        <i class="wi"></i>
+        <h2>
+            <span id="temperature"></span> C° (<span id="conditions"></span>)<br>
+            (<span> Ressenti</span>) <span id="ressenti"></span>  C° 
+        </h2>
+        <h4>
+           Humidité :  <span id="humidite"></span> %<br/>
+            Vent : <span id="vent"></span> Km/h
+        </h4>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
